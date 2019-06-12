@@ -4,6 +4,7 @@
   "description": "Aplicação beck-end para landing page Deixe Leve",
   "main": "index.js",
   "scripts": {
+    "start": "/usr/local/lib/node_modules/nodemon/bin/nodemon.js ./index.js",
     "test": "test"
   },
   "repository": {
@@ -11,7 +12,13 @@
     "url": "git+https://github.com/wendellpereira/deixe-leve-api.git"
   },
   "keywords": [
-    "api"
+    "api",
+    "landing-page",
+    "landig-page-api",
+    "http",
+    "web",
+    "service",
+    "rest"
   ],
   "author": "Wendell de Souza Pereira",
   "license": "MIT",
@@ -19,9 +26,6 @@
     "url": "https://github.com/wendellpereira/deixe-leve-api/issues"
   },
   "homepage": "https://github.com/wendellpereira/deixe-leve-api#readme",
-  "dependencies": {
-    "mongoose": "^5.5.13",
-    "nodemon": "^1.19.1",
-    "restana": "^3.1.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
