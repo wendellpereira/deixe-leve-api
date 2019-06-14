@@ -10,8 +10,8 @@ let environments = {
         'hashingSecret' : 'a30078915d3e46db239efe1eb26025799bc1c23c'
     },
     production : {
-        'httpPort' : 5000,
-        'httpsPort' : 50001,
+        'httpPort' : process.env.PORT || 5000,
+        'httpsPort' : process.env.PORT || 50001,
         'envName' : 'production',
         'hashingSecret' : '6b0b87a7d36dbec3ff3fb2d7e762cdb6e9376483'
     }
