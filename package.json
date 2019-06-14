@@ -4,7 +4,8 @@
   "description": "Aplicação beck-end para landing page Deixe Leve",
   "main": "index.js",
   "scripts": {
-    "start": "/usr/local/lib/node_modules/nodemon/bin/nodemon.js ./index.js",
+    "start-local": "/usr/local/lib/node_modules/nodemon/bin/nodemon.js ./index.js",
+    "start": "node ./index.js",
     "test": "test"
   },
   "repository": {
