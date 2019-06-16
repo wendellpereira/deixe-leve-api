@@ -11,11 +11,17 @@ console.log('Mongoose is about to connect on ' + DBSERVERNAME );
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(DBURI, {
+const dbOptions = {
     promiseLibrary: global.Promise,
     useNewUrlParser : true,
     useCreateIndex : true
-});
+};
+
+mongoose.connect(DBURI, dbOptions)
+    .then(
+        () => { console.log('MongoDB ready to use!')},
+        err => { console.error(`Error on MongoDB: ${ err }`)}
+    );
 
 mongoose.connection.on('connected', function() {
     console.log('MongoDB via Mongoose connected to ' + DBSERVERNAME);

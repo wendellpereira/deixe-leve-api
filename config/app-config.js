@@ -9,6 +9,12 @@ let environments = {
         'envName' : 'development',
         'hashingSecret' : 'a30078915d3e46db239efe1eb26025799bc1c23c'
     },
+    staging : {
+        'httpPort' : process.env.PORT || 5000,
+        'httpsPort' : process.env.PORT || 50001,
+        'envName' : 'production',
+        'hashingSecret' : '0adab7e09018e0ca04351c55a4a13964b6098bb7'
+    },
     production : {
         'httpPort' : process.env.PORT || 5000,
         'httpsPort' : process.env.PORT || 50001,
