@@ -7,7 +7,7 @@ const mongoose = require( 'mongoose' );
 /** Set database URI */
 const DBURI = process.env.MONGO_URI;
 const DBSERVERNAME = DBURI.substr( DBURI.lastIndexOf('/', DBURI.length +2) +1);
-console.log('Mongoose is about to connect on ' + DBSERVERNAME );
+console.log('MongoDB via Mongoose is about to connect on ' + DBSERVERNAME );
 
 mongoose.Promise = global.Promise;
 
