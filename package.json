@@ -27,6 +27,9 @@
     "url": "https://github.com/wendellpereira/deixe-leve-api/issues"
   },
   "homepage": "https://github.com/wendellpereira/deixe-leve-api#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "mongoose": "5.6.0"
+  },
   "devDependencies": {}
 }
