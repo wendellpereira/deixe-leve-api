@@ -27,6 +27,10 @@
     "url": "https://github.com/wendellpereira/deixe-leve-api/issues"
   },
   "homepage": "https://github.com/wendellpereira/deixe-leve-api#readme",
+  "engines": {
+    "node": "9.6.1",
+    "npm": "6.9.0"
+  },
   "dependencies": {
     "dotenv": "8.0.0",
     "mongoose": "5.6.0"
