@@ -6,7 +6,7 @@
   "scripts": {
     "start-local": "/usr/local/lib/node_modules/nodemon/bin/nodemon.js ./index.js",
     "start": "node ./index.js",
-    "test": "test"
+    "test": "mocha test/**/**.spec.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,9 @@
     "dotenv": "8.0.0",
     "mongoose": "5.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*"
+  }
 }

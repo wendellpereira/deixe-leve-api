@@ -108,3 +108,6 @@ let router = {
     'hello'  : handlers.hello,
     'users'  : handlers.users
 };
+
+// Exports for testing
+module.exports = httpServer;
