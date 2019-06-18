@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/wendellpereira/deixe-leve-api#readme",
   "engines": {
-    "node": "9.6.1",
+    "node": "10.16.0",
     "npm": "6.9.0"
   },
   "dependencies": {
