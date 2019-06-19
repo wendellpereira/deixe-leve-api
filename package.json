@@ -1,6 +1,6 @@
 {
   "name": "deixe-level-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Aplicação beck-end para landing page Deixe Leve",
   "main": "index.js",
   "scripts": {
